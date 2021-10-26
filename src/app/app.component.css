@@ -1,0 +1,9 @@
+html{
+    scroll-behavior: smooths;
+}
+body{
+    line-height: 1.1;
+}
+h1 { font-size: var(--fs-h1);}
+h2 { font-size: var(--fs-h2);}
+h3 { font-size: var(--fs-h3);}

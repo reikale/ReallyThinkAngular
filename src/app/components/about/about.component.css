@@ -1,0 +1,23 @@
+.about__element{
+    display: flex;
+    justify-content: center;
+    background-image: url('./../../../assets/images/background-img.jpg');
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about__image{
+    height: 360px;
+}
+.about__text{
+    font-family: var(--ff-primary);
+    padding-left: 60px;
+    padding-top: 70px;
+    width: 370px;
+
+}
+.about__text h2{
+    font-weight: var(--fw-semi-bold);
+}
+.about__text p{
+    font-weight: var(--fw-reg);
+}

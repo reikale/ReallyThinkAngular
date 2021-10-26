@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+*,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  /* Custom Properties -- change as you like */
+  
+  :root {
+    --ff-primary: 'Open Sans', sans-serif;
+    --ff-secondary: 'Open Sans', sans-serif;
+  
+    --fw-reg: 300;
+    --fw-semi-bold: 400;
+    --fw-bold: 700;
+  
+    --clr-bg: #fff;
+    --clr-text: black;
+    --clr-accent: #fd9002;
+    --clr-grey: #eeeeee;
+  
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-h4: 1rem;
+    --fs-body: 1rem;
+  
+    --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25);
+  }
+  app-root{
+      font-family: var(--ff-primary);
+      font-size: var(--fs-body);
+  }
